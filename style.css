@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* body > * {
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px;
+} */
+
+
+/* ************************** HEADER ************************* */
+header {
+    background-color: #0b4fb5;
+    position: fixed;
+}
+/* header > * {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+} */
+
+.cont_header {
+    /* border: solid 1px red; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* ***Logo del Header*** */
+
+.container_logo {
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding:2px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.logo {
+    /* border: 1px solid red; */
+    height: 95px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.img_logo {
+    border-radius: 5px;
+    width: 60%;
+}
+
+/* ***NAV del Header*** */
+.nav {
+    /* border: 1px solid green; */
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.link {
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    background-color:#b3eb3b;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    font-style: oblique; 
+    font-weight: bold;    
+}
+
+.banner {
+    border: 0px;
+    padding: 0px;
+}
+
+.banner_image {
+    width:100%;
+    height: 300px;
+}
+
+
+
+
+/* ************************** MAIN ************************* */
+main {
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 6em;
+}
+
+main > * {
+    /* border: 1px solid blue; */
+    /* margin: 15px; */
+    padding: 15px;
+}
+
+h1 {
+    font: italic bold 100px Georgia, Serif;
+    text-align: center;
+    text-shadow: 4px 3px 0 #34d16e;
+    margin-top: 0.4em;
+}
+
+h2 {
+    /* border: solid 1px red; */
+    text-align: center;
+    margin-top: 2em;    
+}
+
+.container_animales {
+    /* border: 1px solid yellow; */
+    padding-left: 5em;
+    padding-right: 5em;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;    
+}
+
+.detalle {
+    /* border: 1px solid orangered; */
+    padding:10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size:large;
+}
+
+.animal {
+    /* border: 1px solid orangered; */
+    border-radius: 1em;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;  
+    justify-items:start;
+    align-items:flex-start;
+}
+
+.foto { 
+    /* border: 1px solid red; */
+    border-radius: 1em; 
+}
+
+.nombre {
+    /* border: 1px solid red; */
+    font-weight: bold;
+    padding: 5px;
+    font-size: larger;
+    text-align: center;
+    align-self: center;
+}
+
+.descripcion {
+    /* border: 1px solid red; */
+    padding: 5px;
+    grid-column: 1/3;
+}
+
+.contacto > * {
+    /* border: solid 1px red; */
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    /* border: solid 1px orangered; */
+    margin: 10px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.info > * {
+    /* border: solid 1px green; */
+    margin: 2px;
+}
+
+.boton_enviar {
+    /* border: solid 1px red; */
+    border-radius: 4px;
+    font-weight: bold;
+    width: 5em;
+    height: 2em;
+}
+
+
+
+/* ************************** FOOTER ************************* */
+footer {
+    background-color: black;
+}
+
+.footernav {
+    /* border: 1px solid red; */
+    /* margin: 15px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footernav > * {
+    /* border: solid 1px red; */
+    margin: 2px;
+    width: 50%;    
+}
+
+.copyright {
+    color:white;
+    font-size: smaller;
+}
+
+.creditos {
+    font-size:smaller;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.margin_credits {
+    margin-right: 10px;
+}
